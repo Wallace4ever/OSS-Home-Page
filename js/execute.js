@@ -5,7 +5,7 @@ $('#banner').slick({
   slidesToShow: 3,
   slidesToScroll: 1,
   autoplay: true,
-  autoplaySpeed: 4000,
+  autoplaySpeed: 3000,
   responsive: [
     {
       breakpoint: 1024,
@@ -30,8 +30,14 @@ $('#banner').slick({
         slidesToScroll: 1
       }
     }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
   ]
 });
+
+// function makemiddle()
+// {
+//   var h1,h2,h3;
+//   h1=document.getElementById(".main-logo").style.height;
+//   h2=document.getElementById("#anni").style.height;
+//   h3=(h1-h2)/2;
+//   document.getElementById('#anni').style.marginTop=h3;
+// }
