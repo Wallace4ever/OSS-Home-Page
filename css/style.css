@@ -1,28 +1,21 @@
-body
-{
-	background-size: 100% 100%;
-	background: -webkit-linear-gradient(bottom,rgba(0,0,0,0),rgba(0,0,0,0.1)); /* Safari 5.1 - 6 */
-  	background: -o-linear-gradient(bottom,rgba(0,0,0,0),rgba(0,0,0,0.1)); /* Opera 11.1 - 12*/
-  	background: -moz-linear-gradient(bottom,rgba(0,0,0,0),rgba(0,0,0,0.1)); /* Firefox 3.6 - 15*/
-  	background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.1)); /* 标准的语法 */
-}
-
 #banner
 {
 	margin: 0 auto ;
 	max-width: 70%;
 	padding: 0px;
-	height: 51%;
+	height: 55%;
 }
 
+#subbanner
+{
+	margin-bottom: 0;
+}
 .card
 {
-	display: inline-block;
 	max-width: 400px;
 	margin:10px;
 	height: 100%;
 }
-
 
 .card-content p
 {
@@ -35,37 +28,37 @@ body
 	padding-left: 20px;
 }
 
-.brand-logo
-{
-	margin-left:10px;
-}
-
-footer.page-footer
-{
-	position: absolute;
-	bottom: 0px;
-	width: 100%;
-	height: 20%-64px;
-	padding: 0px;
-	background-color: transparent;
-}
-
 #anni
 {
-	vertical-align: middle;
 	text-align: center;
 	margin: auto auto;
 	max-height: 100%;
 	max-width: 100%;
-
+	padding-top: 5%;
 }
 
 .main-logo
 {
 	text-align: center;
-
 	margin: auto auto;
-	height: 40%;
+	height: 35%;
 	max-width: 90%;
+}
 
+.slick-slider .slick-list
+{
+	padding-top: 3%;
+}
+
+.slick-dots
+{
+	margin-bottom:0;
+	margin-top: 0; 
+	position: relative;
+	bottom: -15px;
+}
+
+.slick-prev:before, .slick-next:before
+{
+	color: #b19138;
 }

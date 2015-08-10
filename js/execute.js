@@ -1,14 +1,14 @@
-$('#banner').slick({
+$('#subbanner').slick({
   dots: true,
   infinite: true,
   speed: 300,
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  autoplay: true,
+  slidesToShow: 4,
+  slidesToScroll: 2,
+  autoplay: true ,
   autoplaySpeed: 3000,
   responsive: [
     {
-      breakpoint: 1024,
+      breakpoint: 1400,
       settings: {
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -33,11 +33,12 @@ $('#banner').slick({
   ]
 });
 
-// function makemiddle()
-// {
-//   var h1,h2,h3;
-//   h1=document.getElementById(".main-logo").style.height;
-//   h2=document.getElementById("#anni").style.height;
-//   h3=(h1-h2)/2;
-//   document.getElementById('#anni').style.marginTop=h3;
-// }
+$(document).ready(function(){
+    $('.modal-trigger').leanModal({
+      dismissible: true,
+      opacity: .5,
+      in_duration: 300,
+      out_duration: 300,
+    }
+  );
+  });
