@@ -17,6 +17,11 @@
 	height: 100%;
 }
 
+.card .card-image .card-title
+{
+	padding-bottom: 5px;
+}
+
 .card-content p
 {
 	height: 50px;
@@ -26,6 +31,11 @@
 {
 	padding: 9px;
 	padding-left: 20px;
+}
+
+.card .card-action a
+{
+	padding: 0px;
 }
 
 #anni

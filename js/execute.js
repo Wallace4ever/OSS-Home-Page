@@ -4,7 +4,7 @@ $('#subbanner').slick({
   speed: 300,
   slidesToShow: 4,
   slidesToScroll: 2,
-  autoplay: true ,
+  autoplay: true,
   autoplaySpeed: 3000,
   responsive: [
     {
@@ -37,8 +37,8 @@ $(document).ready(function(){
     $('.modal-trigger').leanModal({
       dismissible: true,
       opacity: .5,
-      in_duration: 300,
-      out_duration: 300,
+      in_duration: 500,
+      out_duration: 800,
     }
   );
   });
